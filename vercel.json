@@ -1,0 +1,34 @@
+{
+    "version": 2,
+    "framework": null,
+    "functions": {
+    "api/index.php": { "runtime": "vercel-php@0.6.0" }
+    },
+    "routes": [
+    {
+    "src": "/(.*)",
+    "dest": "/api/index.php"
+    }
+    ],
+    "env": {
+    "APP_ENV": "production",
+    "APP_DEBUG": "true",
+    "APP_URL": "https://vercel.com/new/zaidisaifs-projects",
+    "APP_KEY": "base64:O7C3cQ/U7AA2G50zEfcisIQL1WmRFwNVxckAnv7jcdw=",
+    "APP_CONFIG_CACHE": "/tmp/config.php",
+    "APP_EVENTS_CACHE": "/tmp/events.php",
+    "APP_PACKAGES_CACHE": "/tmp/packages.php",
+    "APP_ROUTES_CACHE": "/tmp/routes.php",
+    "APP_SERVICES_CACHE": "/tmp/services.php",
+    "VIEW_COMPILED_PATH": "/tmp",
+    "CACHE_DRIVER": "array",
+    "LOG_CHANNEL": "stderr",
+    "SESSION_DRIVER": "cookie",
+    "DB_CONNECTION":"mysql",
+    "DB_HOST":"mysql-2964b5c3-zaidisaif95-5041.c.aivencloud.com",
+    "DB_PORT":"25962",
+    "DB_DATABASE":"dbcommerce",
+    "DB_USERNAME":"saif2024",
+    "DB_PASSWORD":"AVNS_et5xIfSmIvzND_ZCMiW"
+    }
+    }
